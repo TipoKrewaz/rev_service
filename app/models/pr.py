@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, Enum, ForeignKey, Table, Boolean
 from sqlalchemy.orm import relationship
-from app.models import Base
+from app.core.database import Base
 
 pr_reviewers = Table(
     "pr_reviewers",
