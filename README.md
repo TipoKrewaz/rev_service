@@ -4,5 +4,5 @@
 
 # Для работы:
 
-Установите UV : curl -LsSf https://astral.sh/uv/install.sh | sh
+Установите UV : curl -LsSf https://astral.sh/uv/install.sh | sh, 
 docker --build
