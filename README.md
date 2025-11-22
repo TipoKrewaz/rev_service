@@ -3,6 +3,5 @@
 Все зависимости представлены в - requirements.txt
 
 # Для работы:
-
-Установите UV : curl -LsSf https://astral.sh/uv/install.sh | sh, 
 docker --build
+docker-compose up -d 
