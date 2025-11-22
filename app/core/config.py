@@ -12,4 +12,5 @@ class Settings(BaseSettings):
         env_file = ".env" 
 
 settings = Settings()
+
 settings.DATABASE_URL = f"postgresql+asyncpg://{settings.DB_USER}:{settings.DB_PASS}@{settings.DB_HOST}:{settings.DB_PORT}/{settings.DB_NAME}"
